@@ -4,12 +4,18 @@
     box-sizing: border-box;
 }
 main{
-    padding: 5% 15% 0 15%;
+    padding: 5% 16% 0 16%;
+}
+#members-section{
+    background-color: lightskyblue;
+    text-align: center;
+
 }
 .member{
-    width: calc(100%/3);
-    height: 50px;
+    width: calc(100%/3 - 20px);
+    height: 80px;
     border: 2px solid magenta;
+    margin: 10px;
 }
 
 
@@ -24,4 +30,16 @@ main{
 /* background */
 .background-color-black{
     background-color: #0f0e17;
+}
+
+.float-left{
+    float: left;
+}
+.float-right{
+    float: right;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
 }

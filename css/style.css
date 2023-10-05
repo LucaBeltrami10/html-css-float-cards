@@ -3,7 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+main{
+    padding: 5% 15% 0 15%;
+}
+.member{
+    width: calc(100%/3);
+    height: 50px;
+    border: 2px solid magenta;
+}
 
 
 /* CLASSI GENERICHE */

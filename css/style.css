@@ -6,22 +6,32 @@
 }
 img{
     height: 100%;
+
 }
 main{
-    padding: 5% 16% 0 16%;
+    padding: 3% 16% 0 16%;
 }
 
 .member{
     width: calc(100%/3 - 20px);
     height: 80px;
-    border: 2px solid magenta;
-    margin: 10px;
+    margin: 10px 10px 20px 10px;
 }
 
 #members-section{
-    background-color: lightskyblue;
-    text-align: center;
+    background-color: white;
+    font-size: 0.8rem;
 
+}
+main>h1.color-pink{
+    margin-bottom: 5%;
+}
+main>p.lorem{
+    margin-bottom: 4%;
+}
+.member>h3, p, a{
+    line-height: calc(80px/3);
+    margin-left: 5px;
 }
 
 
@@ -32,6 +42,9 @@ main{
 }
 .color-white{
     color: white;
+}
+.color-lighblue{
+    color: lightskyblue;
 }
 /* background */
 .background-color-black{

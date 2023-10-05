@@ -2,20 +2,26 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Fredoka', sans-serif;
+}
+img{
+    height: 100%;
 }
 main{
     padding: 5% 16% 0 16%;
 }
-#members-section{
-    background-color: lightskyblue;
-    text-align: center;
 
-}
 .member{
     width: calc(100%/3 - 20px);
     height: 80px;
     border: 2px solid magenta;
     margin: 10px;
+}
+
+#members-section{
+    background-color: lightskyblue;
+    text-align: center;
+
 }
 
 
@@ -42,4 +48,7 @@ main{
     content: "";
     display: block;
     clear: both;
+}
+.text-align-center{
+    text-align: center;
 }

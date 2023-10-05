@@ -6,6 +6,7 @@
 }
 img{
     height: 100%;
+    height: ;
 
 }
 main{
@@ -17,6 +18,11 @@ main{
     height: 80px;
     margin: 10px 10px 20px 10px;
 }
+/* DA RIGUARDARE PER INSERIRE PADDING SOPRA E SOTTO AI 3 ELEMENTI DESCRITTIVI VICINO A FOTO PROFILO DEI MEMBRI */
+/* .member-info{
+    padding-top: 5px;
+    padding-bottom: 5px;
+} */
 
 #members-section{
     background-color: white;
@@ -29,10 +35,11 @@ main>h1.color-pink{
 main>p.lorem{
     margin-bottom: 4%;
 }
-.member>h3, p, a{
-    line-height: calc(80px/3);
-    margin-left: 5px;
+.member-info>h3, p, a{
+    line-height: calc(80px/3); 
+    padding-left: 10px;  
 }
+
 
 
 /* CLASSI GENERICHE */

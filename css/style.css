@@ -6,7 +6,7 @@
 }
 img{
     height: 100%;
-    height: ;
+    
 
 }
 main{
@@ -37,7 +37,7 @@ main>p.lorem{
 }
 .member-info>h3, p, a{
     line-height: calc(80px/3); 
-    padding-left: 10px;  
+    padding-left: 20px;  
 }
 
 
@@ -48,7 +48,7 @@ main>p.lorem{
     color: #e8366e;
 }
 .color-white{
-    color: white;
+    color: rgb(255, 255, 255);
 }
 .color-lighblue{
     color: lightskyblue;

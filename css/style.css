@@ -34,9 +34,11 @@ main>h1.color-pink{
 main>p.lorem{
     margin-bottom: 4%;
 }
-.member-info>h3, p, a{
+div.member-info>h3, 
+div.member-info>p, 
+div.member-info>a{
     line-height: calc(70px/3); 
-    padding-left: 20px;  
+    padding-left: 20px;
 }
 
 

@@ -18,12 +18,6 @@ main{
     height: 80px;
     margin: 10px 10px 20px 10px;
 }
-/* DA RIGUARDARE PER INSERIRE PADDING SOPRA E SOTTO AI 3 ELEMENTI DESCRITTIVI VICINO A FOTO PROFILO DEI MEMBRI */
-/* .member-info{
-    padding-top: 5px;
-    padding-bottom: 5px;
-} */
-
 #members-section{
     background-color: white;
     font-size: 0.8rem;

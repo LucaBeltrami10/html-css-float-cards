@@ -18,10 +18,12 @@ main{
     height: 80px;
     margin: 10px 10px 20px 10px;
 }
+.member-info{
+    height: 100%;
+}
 #members-section{
     background-color: white;
     font-size: 0.8rem;
-
 }
 main>h1.color-pink{
     margin-bottom: 5%;
@@ -30,7 +32,7 @@ main>p.lorem{
     margin-bottom: 4%;
 }
 .member-info>h3, p, a{
-    line-height: calc(80px/3); 
+    line-height: calc(100%/3); 
     padding-left: 20px;  
 }
 
